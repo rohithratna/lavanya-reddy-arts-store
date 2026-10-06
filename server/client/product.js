@@ -6,8 +6,7 @@ const SIZES = {
   'Portraits': ['A4', 'A3'],
   'Devotional Art': ['5x7 inch', '8x10 inch'],
   'Magnets & Keychains': ['Small (standard)'],
-  'Phone Cases': ['Standard'],
-  'Wedding Art': ['Standard']
+  'Phone Cases': ['Standard']
 };
 
 let product = null;

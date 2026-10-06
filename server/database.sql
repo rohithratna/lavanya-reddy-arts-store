@@ -53,5 +53,4 @@ INSERT INTO products (name, description, price, image_url, stock, category) VALU
 ('Framed Devotional Art', 'Hand-painted Krishna, Shiva or Jagannath in a frame', 1200.00, 'images/devotional.jpeg', 100, 'Devotional Art'),
 ('Custom Name Magnet', 'Hand-painted magnet with your name or quote', 150.00, 'images/magnet.jpeg', 100, 'Magnets & Keychains'),
 ('Painted Phone Case', 'Custom hand-painted phone case', 600.00, 'images/phonecase.jpeg', 100, 'Phone Cases'),
-('Wedding Antarpat Design', 'Custom wedding invitation art', 2000.00, 'images/wedding.jpeg', 100, 'Wedding Art'),
 ('Custom Framed Illustration', 'Hand-painted illustration in a frame, made from your idea or photo', 1000.00, 'images/framed.jpeg', 100, 'Framed Art');
