@@ -41,7 +41,19 @@ server/
 ```
 
 ## Screenshots
-(Add screenshots of the shop, product details, cart, and My Orders pages here.)
+### Shop
+![Shop](screenshots/shop.png)
 
+### Product details with customization form
+![Product details](screenshots/product.png)
+
+### Cart
+![Cart](screenshots/cart.png)
+
+### My Orders
+![My Orders](screenshots/orders.png)
+
+### Passwords stored as hashes
+![Hashed passwords](screenshots/hashed-passwords.png)
 ## Author
 Rohith Reddy - CodeAlpha Full Stack Development Intern
