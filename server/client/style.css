@@ -31,3 +31,28 @@ main { padding: 30px; max-width: 1100px; margin: auto; }
 .auth-box .btn { margin-top: 18px; border: none; cursor: pointer; font-size: 16px; }
 .status { background: #f0e0d0; color: #7b2d26; padding: 4px 12px; border-radius: 12px; font-weight: bold; height: fit-content; }
 .auth-box textarea { width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 6px; }
+body {
+  background-color: #faf6f1;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(123, 45, 38, 0.08) 0, transparent 40%),
+    radial-gradient(circle at 90% 30%, rgba(230, 160, 60, 0.12) 0, transparent 40%),
+    radial-gradient(circle at 50% 90%, rgba(60, 120, 160, 0.08) 0, transparent 45%),
+    radial-gradient(rgba(123, 45, 38, 0.10) 1px, transparent 1px);
+  background-size: auto, auto, auto, 24px 24px;
+  background-attachment: fixed;
+}
+
+.hero {
+  background: linear-gradient(135deg, #7b2d26, #b5523b 60%, #e0a458);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 18px rgba(123, 45, 38, 0.25);
+}
+.hero h2 { margin: 0 0 8px; font-size: 30px; }
+.hero p { margin: 0; font-size: 16px; opacity: 0.95; }
+
+.card { transition: transform 0.2s, box-shadow 0.2s; }
+.card:hover { transform: translateY(-6px); box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18); }
