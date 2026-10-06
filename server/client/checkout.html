@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Lavanya Reddy Arts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Lavanya Reddy Arts</h1>
+    <nav>
+      <a href="index.html">Shop</a>
+      <a href="cart.html">Cart</a>
+      <a href="orders.html">My Orders</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Checkout</h2>
+    <div id="summary"></div>
+    <div class="auth-box" style="max-width:600px">
+      <label>Delivery address</label>
+      <textarea id="address" rows="3" placeholder="House no, street, city, pincode"></textarea>
+      <label>Phone number</label>
+      <input type="text" id="phone">
+      <button class="btn" onclick="placeOrder()">Place Order</button>
+      <p id="message"></p>
+    </div>
+  </main>
+
+  <script src="checkout.js"></script>
+</body>
+</html>

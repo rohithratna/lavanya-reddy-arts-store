@@ -1,0 +1,33 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #faf6f1; color: #333; }
+header { background: #7b2d26; color: white; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; }
+header h1 { margin: 0; font-size: 22px; }
+nav a { color: white; margin-left: 20px; text-decoration: none; }
+main { padding: 30px; max-width: 1100px; margin: auto; }
+.filters { margin-bottom: 20px; }
+.filters button { padding: 8px 14px; margin: 0 6px 6px 0; border: 1px solid #7b2d26; background: white; color: #7b2d26; border-radius: 20px; cursor: pointer; }
+.filters button:hover { background: #7b2d26; color: white; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+.card { background: white; border-radius: 10px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.card img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; }
+.price { font-weight: bold; color: #7b2d26; }
+.btn { display: inline-block; background: #7b2d26; color: white; padding: 8px 14px; border-radius: 6px; text-decoration: none; }
+.detail { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.detail img { width: 100%; border-radius: 8px; }
+.detail label { display: block; margin-top: 12px; font-weight: bold; }
+.detail input, .detail select, .detail textarea { width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 6px; }
+.detail .btn { margin-top: 18px; border: none; cursor: pointer; font-size: 16px; }
+@media (max-width: 700px) { .detail { grid-template-columns: 1fr; } }
+.cart-item { display: flex; justify-content: space-between; gap: 20px; background: white; padding: 18px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 15px; }
+.cart-item h3 { margin: 0 0 8px; }
+.cart-item p { margin: 4px 0; }
+.cart-right { text-align: right; }
+.remove { background: white; color: #c0392b; border: 1px solid #c0392b; border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+.cart-total { text-align: right; margin-top: 20px; }
+.checkout-btn { border: none; cursor: pointer; font-size: 16px; }
+.auth-box { max-width: 400px; margin: 30px auto; background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.auth-box label { display: block; margin-top: 12px; font-weight: bold; }
+.auth-box input { width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 6px; }
+.auth-box .btn { margin-top: 18px; border: none; cursor: pointer; font-size: 16px; }
+.status { background: #f0e0d0; color: #7b2d26; padding: 4px 12px; border-radius: 12px; font-weight: bold; height: fit-content; }
+.auth-box textarea { width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 6px; }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Placed - Lavanya Reddy Arts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Lavanya Reddy Arts</h1>
+    <nav>
+      <a href="index.html">Shop</a>
+      <a href="orders.html">My Orders</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="auth-box" style="text-align:center">
+      <h2>Thank you! 🎨</h2>
+      <p>Your order <strong id="oid"></strong> has been placed.</p>
+      <p>The artist will start working on your custom art soon.</p>
+      <a class="btn" href="orders.html">View My Orders</a>
+    </div>
+  </main>
+
+  <script>
+    const id = new URLSearchParams(window.location.search).get('id');
+    document.getElementById('oid').textContent = '#' + id;
+  </script>
+</body>
+</html>
